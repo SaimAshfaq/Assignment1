@@ -1,0 +1,35 @@
+body{
+    background-image: url("./bgimage2.jpg");
+}
+h3{
+    color: whitesmoke;
+}
+#formm {
+    text-align: center;
+    float: right;
+    border: 3px solid black;
+    justify-content: center;
+    background-image: url("./images.jpg");
+    margin-right: 40px;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  #Name {
+    border-color: #282c34;
+  }
+  #Age {
+    border-color: #282c34;
+  }
+  
+  #studentlist {
+    width: 50%;
+    border: 3px solid black;
+    color: white;
+    background-color: mediumslateblue;
+  }
+  #addUpdate {
+    text-align: right;
+    margin-right: 50px;
+  }
+  

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webassign.css">
+    <title>Web Assignment</title>
+</head>
+<body>
+
+        <h3>Name: Muhammad Saim Ashfaq</h3>
+        <h3>REG#: SP18-BCS-115</h3>
+    <div>
+<br>
+            <h3 id="addUpdate">Add/Update Person Form</h3>    
+        <div id="formm">
+           
+         <form onsubmit="event,preventDefault();" autocomplete="off">
+             <br>
+             <label>Name:</label>
+             <input type="text" name="Name" id="Name">
+         </br>
+            <br>
+                <label>Age:</label>
+                <input type="text" name="Age" id= "Age">
+        </br>
+               <br>
+                <label for="gender">Gender : </label>
+                <input type="radio" id="male" name="gender" value="male" checked="true" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+    </br>
+    <br />
+    <label for="city">City : </label>
+    <select name="city" id="city">
+      <option value="Lahore">Lahore</option>
+      <option value="Quetta">Quetta</option>
+      <option value="Islamabad">Islamabad</option>
+      <option value="Karachi">Karachi</option>
+      <option value="Peshawar">Peshawar</option>
+    </select>
+    <br />
+    <br />
+ 
+ 
+  <!--button type="button" onClick="{this.handlevalues}" id= "reset">reset</button-->
+  <button type="button" id="add" >add</button>
+  <button type="button" id="update" disabled="true">update</button>
+  <button type= "button" onclick="handlevalues()">reset</button>
+ 
+  </br>
+                 
+         </form>
+       
+        </div>
+
+   
+<div id="table">
+           <h3>List of Persons</h3>
+               <table class ="list" id="studentlist">
+                   <thead>
+                       <tr>
+                           <td>Name</td>
+                           <td>Age</td>
+                           <td>Gender</td>
+                           <td>City</td>
+                           <td>Action</td>
+                           
+                           <td></td>
+                       </tr>
+                   </thead>
+                   <tbody>
+                   </tbody>
+               </table>
+           
+        </div>
+       
+  <script src= "webassign.js"></script>  
+</div>  
+</body>
+
+</html>
